@@ -55,3 +55,7 @@ new RNGCryptoServiceProvider().GetNonZeroBytes(saltBytes)
 You can with some effort, look up the Hashing Algorithm and re-create it easily in Visual Studio for your custom needs.
 
 For Reference.
+
+------
+
+You could modify the code and remove the RNG Salt and pass in your own salt. Would work as well, only then your Hash would always be the same. Perhaps if you are re-creating this in a VBScript for some Database Copy Script, its easier to re-create.
