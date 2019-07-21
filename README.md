@@ -19,10 +19,10 @@ What you need to know is that the Random Salt is embedded in the end-result Hash
 
 If you were to call ComputeHash a thousand times with the same password string you would get a different Hash always.
 
-| Password   |      Computed Epicor Hash w/ RNG Salt      |
-|----------|:-------------:|------:|
-| manager |  46uIY6/nQjHL5mX1KeE/7NtEXD3MIOblGxpVRH5ZWXNORGsNwT3WHg== |
-| manager |    JIzKviG6ZG5rE52KOeKEg4AvPnU72FOUQ0y7y/R8h8GZNQaV2G+GHw==   | 
+| Password | Computed Epicor Hash w/ RNG Salt |
+| ------------- | ------------- |
+| manager | 46uIY6/nQjHL5mX1KeE/7NtEXD3MIOblGxpVRH5ZWXNORGsNwT3WHg== |
+| manager | JIzKviG6ZG5rE52KOeKEg4AvPnU72FOUQ0y7y/R8h8GZNQaV2G+GHw== | 
 | manager | tjk/TfHesmjnhq7NcUbCkfQKJnqfV7Q2mJRG6hwYRD8xGIofA6tGIQ== | 
 
 Example:
