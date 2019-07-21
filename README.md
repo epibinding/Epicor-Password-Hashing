@@ -1,3 +1,5 @@
+# Epicor Password Hashing Algorithm
+
 From a high-level Epicor has a little helper class to hash the password via 2 helper methods **ComputeHash**, **VerifyHash** it does support different algorithm's such as _SHA1, SHA256, SHA384, SHA512, MD5_ but by default Epicor uses **SHA256**.
 
 That helper lies in Epicor.System.dll usually stored in the bin folder on the IIS App Server.
